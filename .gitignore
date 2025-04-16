@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+
+# Virtual Environment
+venv/
+
+# IDE
+.cursor/
+
+# Project specific
+project_documentation/
+hacker_news_data.csv
