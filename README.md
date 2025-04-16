@@ -77,25 +77,10 @@ The code is organized into modules for better separation of concerns:
     - `settings.py`: URL configurations, timeouts, and other constants
     - `logging_config.py`: Logging configuration
 - `requirements.txt`: Lists project dependencies with specific versions
-- `README.md`: Project documentation
-
-## Error Handling
-
-The script includes comprehensive error handling using custom exceptions:
-- `ScraperError`: Base exception for all scraper errors
-- `RobotsTxtError`: Issues with robots.txt fetching or parsing
-- `FetchError`: Network errors during page fetching
-- `ParseError`: HTML parsing issues
-- `DataExtractionError`: Problems extracting data from parsed HTML
-- `SaveCsvError`: File I/O problems during CSV writing
-- `PermissionError`: Permission-related issues (like paths disallowed by robots.txt)
 
 ## Robots.txt Compliance
 
-This scraper respects the website's robots.txt directives:
-- Checks for disallowed paths before scraping
-- Follows the specified crawl delay
-- Uses a default delay if none is specified
+This scraper respects the website's robots.txt directives.
 
 ## Disclaimer
 
